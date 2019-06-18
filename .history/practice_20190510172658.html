@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <p>{{message.a}}</p>
+        <input v-model="a" class="test">
+        {{a}}
+    </div>
+<script src="./compile.js"></script>
+<script src="./mvvm.js"></script>
+<script>
+    new Vue({
+        el: 'app',
+        data: {
+           a: 'successful惹',
+           message: {
+               a: 2
+           }
+        }
+    })
+</script>
+</body>
+</html>
