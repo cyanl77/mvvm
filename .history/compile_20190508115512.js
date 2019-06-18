@@ -1,5 +1,0 @@
-class Compile {
-    constructor (el) {
-
-    }
-}
